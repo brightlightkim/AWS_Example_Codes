@@ -1,0 +1,20 @@
+<html>
+
+<body>
+  <div>
+    <price 
+    :value="item.price", 
+    :prefix="'&euro;'", 
+    :precision="2", 
+    :conversion="0.87"></price>
+  </div>
+  <product-list :products="products" :maximum="maximum">
+    <!-- 
+    left: component used in component
+    right: data 
+    -->
+    
+  </product-list>
+</body>
+
+</html>
